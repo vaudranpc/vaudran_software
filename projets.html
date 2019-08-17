@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+        <link rel='stylesheet' href='./css/bundle.css'/>
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+          crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+      
+        <title>projets Vaudran |Software</title>
+      </head>
+<body>
+    <nav
+    class="navbar fixed-top navbar-expand-lg"
+    style="background-color: rgba(0, 0, 0, 0.5);"
+  >
+    <span
+      id="navTitle"
+      class="navbar-brand"
+      style="font-size: 5vh; cursor: default; color: white;"
+    >
+      <img
+        id="brandImage"
+        class="brandImage brandImageTop"
+        src="./images/logo.png"
+        height="50px"
+      />
+    </span>
+    <div id="floatingToggle"></div>
+    <a id="nav-toggler" style="opacity: 1;">
+      <span></span>
+    </a>
+
+    <div class="collapse navbar-collapse main-nav" id="navToggleContent">
+      <ul
+        id="navButtons"
+        class="nav-buttons navbar-nav mr-auto mt-2 mt-lg-0"
+        style=""
+      >
+        <li class="nav-item currentTab">
+          <a href="./index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a href="equipe.html">Équipe</a>
+        </li>
+        <li class="nav-item">
+          <a href="projets.html">Projets</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="partenaires.html">Partenaires</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Welcome section content-->
+
+  <div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    <h1 align="center">Le site web est en construction </h1>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <h1 align="center" id="demo"></h1>
+    
+    <h1 align="center" id="demos"></h1>
+  </div>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+
+ 
+}
+
+
+</script>
+
+</body>
+</html>
